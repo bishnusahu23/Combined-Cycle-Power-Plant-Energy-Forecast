@@ -19,8 +19,9 @@ Multiple regression techniques were applied to determine the best model for pred
 - Ensemble Methods: Implemented techniques like Random Forest and XGBoost to leverage the strengths of multiple models for better accuracy.
 
 ## Evaluation Metrics:
-The model's accuracy was assessed using:
-R-squared: To measure the proportion of variance in the dependent variable predictable from the independent variables.
+The model's accuracy was assessed using:  
+
+R-squared: To measure the proportion of variance in the dependent variable predictable from the independent variables.   
 Mean Squared Error (MSE): To quantify the average squared difference between predicted and actual values
 
 ## Model Performance
