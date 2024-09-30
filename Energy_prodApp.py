@@ -24,10 +24,10 @@ vacuum = st.number_input("Exhaust Vacuum (cm Hg):", value=38.56)
 try:
     with open(r"Regression_model", 'rb') as file:
         model = pickle.load(file)
-
+    # importing the scaler to transform the new data
     with open(r"scaler.pkl", 'rb') as file:
         scaler = pickle.load(file)
-        
+    # loading the dataset
     data = pd.read_csv(r"Copy of energy_production .csv")
     
 except FileNotFoundError as e:
