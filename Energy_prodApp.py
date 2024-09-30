@@ -22,13 +22,13 @@ vacuum = st.number_input("Exhaust Vacuum (cm Hg):", value=38.56)
 
 
 try:
-    with open(r"C:\Users\sahub\Desktop\P440-Regression\regression_model", 'rb') as file:
+    with open(r"Regression_model", 'rb') as file:
         model = pickle.load(file)
 
-    with open(r"C:\Users\sahub\Desktop\P440-Regression\scaler.pkl", 'rb') as file:
+    with open(r"scaler.pkl", 'rb') as file:
         scaler = pickle.load(file)
         
-    data = pd.read_csv(r"C:\Users\sahub\Desktop\P440-Regression\Copy of energy_production (1).csv")
+    data = pd.read_csv(r"Copy of energy_production .csv")
     
 except FileNotFoundError as e:
     st.error(f"File not found: {e}. Please check the file path and try again.")
