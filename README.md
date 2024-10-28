@@ -34,3 +34,5 @@ After extensive experimentation, the final model, powered by XGBoost, demonstrat
 
 ## Conclusion
 The developed model highlights the critical role environmental conditions play in energy production, offering valuable insights for optimizing power plant operations. By accurately forecasting energy output, this tool empowers stakeholders in the energy sector to make data-driven decisions, ultimately enhancing energy efficiency and management. With further fine-tuning and adjustments, the model’s robustness can be enhanced, making it a valuable asset for long-term energy forecasting and optimization
+## Deployment using streamlit:
+https://ddqevsat2n2nde4zlsweos.streamlit.app/
